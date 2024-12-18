@@ -17,6 +17,7 @@ const Stopwatch = () => {
                 setTime(time=>time+1);
             },1000)
         }
+        
     }, [isrunning]
     )
     return (
